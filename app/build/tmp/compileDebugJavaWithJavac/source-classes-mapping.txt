@@ -1,0 +1,5 @@
+com/example/m8app/BuildConfig.java
+ com.example.m8app.BuildConfig
+com/example/m8app/MainActivity.java
+ com.example.m8app.MainActivity
+ com.example.m8app.MainActivity$1
