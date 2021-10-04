@@ -2,6 +2,7 @@ package com.example.m8app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.util.Log;
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     //If the user is admin and the password is admin, you will enter the if
                     if (txtUsername.equals("admin") && txtPassword.equals("admin")) {
                         //log check if the login is correct
+                        goToMenu();
                         Log.i("Test", "Login correcte");
                         //If the user is admin and the password is not admin, you will enter the on else
                     } else {
@@ -44,5 +46,9 @@ public class MainActivity extends AppCompatActivity {
 
             });
         }
+    public void goToMenu() {
+        Intent intentmenu = new Intent(this,menu.class);
+        startActivity(intentmenu);
+    }
 
 }

@@ -18,7 +18,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/Theme.M8APP" >
+        <activity
+            android:name="com.example.m8app.menu"
+            android:exported="true" />
         <activity
             android:name="com.example.m8app.MainActivity"
             android:exported="true" >

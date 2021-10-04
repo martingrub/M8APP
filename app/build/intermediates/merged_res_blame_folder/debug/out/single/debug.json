@@ -8,6 +8,10 @@
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/layout_fragment_list.xml.flat",
+        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/layout/fragment_list.xml"
+    },
+    {
         "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
     },
@@ -16,16 +20,24 @@
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/layout_fragment_form.xml.flat",
+        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/layout/fragment_form.xml"
+    },
+    {
         "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/drawable_custom_email_icon.xml.flat",
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/drawable/custom_email_icon.xml"
     },
     {
-        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/menu_bottom_navigation.xml.flat",
+        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/menu/bottom_navigation.xml"
+    },
+    {
+        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
@@ -52,6 +64,10 @@
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/drawable_ic_add.xml.flat",
+        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/drawable/ic_add.xml"
+    },
+    {
         "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/drawable_ic_email.xml.flat",
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/drawable/ic_email.xml"
     },
@@ -66,6 +82,10 @@
     {
         "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/drawable_ic_lock.xml.flat",
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/layout_fragment_home.xml.flat",
+        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/layout/fragment_home.xml"
     },
     {
         "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/drawable_ic_email_focused.xml.flat",
@@ -84,6 +104,10 @@
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/drawable_ic_list.xml.flat",
+        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/drawable/ic_list.xml"
+    },
+    {
         "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
     },
@@ -94,6 +118,14 @@
     {
         "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/layout_activity_menu.xml.flat",
+        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/layout/activity_menu.xml"
+    },
+    {
+        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/drawable_ic_home.xml.flat",
+        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/drawable/ic_home.xml"
     },
     {
         "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/drawable_rounded_corner.xml.flat",
