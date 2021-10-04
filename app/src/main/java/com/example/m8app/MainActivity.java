@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             final EditText password = findViewById(R.id.TextPassword);
             final Button button = findViewById(R.id.btnLogin);
 
+            //listen to the click of the button and do the action that you indicate
             button.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
                     //Get the data from the edit text and pass it to a string and then save it in a variable string
