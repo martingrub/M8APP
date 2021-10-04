@@ -1,10 +1,10 @@
 ######################
 # SalvatierraEric_M8APP
 
-#Login
+Login
 
-#User=admin
+User=admin
 
-#Password=admin
+Password=admin
 
 #######################
