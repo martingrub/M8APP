@@ -28,16 +28,16 @@
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/drawable/custom_email_icon.xml"
     },
     {
-        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/menu_bottom_navigation.xml.flat",
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/menu/bottom_navigation.xml"
     },
     {
-        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
@@ -130,5 +130,9 @@
     {
         "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/drawable_rounded_corner.xml.flat",
         "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/drawable/rounded_corner.xml"
+    },
+    {
+        "merged": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/merged_res/debug/layout_item_list.xml.flat",
+        "source": "/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/src/main/res/layout/item_list.xml"
     }
 ]

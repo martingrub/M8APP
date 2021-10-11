@@ -20,7 +20,7 @@ public class menu extends AppCompatActivity {
         //Hide the action bar
         getSupportActionBar().hide();
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FormFragment()).commit();
+
         bottomNav.setOnItemSelectedListener(item -> {
             Fragment selectedFragment = null;
             switch (item.getItemId()){

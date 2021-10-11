@@ -1946,6 +1946,7 @@ int id bounceBoth 0x7f080063
 int id bounceEnd 0x7f080064
 int id bounceStart 0x7f080065
 int id btnLogin 0x7f080066
+int id button 0x7f0801e0
 int id buttonPanel 0x7f080067
 int id cache_measures 0x7f080068
 int id cancel_action 0x7f080069
@@ -2018,6 +2019,7 @@ int id easeIn 0x7f0800ab
 int id easeInOut 0x7f0800ac
 int id easeOut 0x7f0800ad
 int id east 0x7f0800ae
+int id editTextTextPersonName 0x7f0801e5
 int id edit_query 0x7f0800af
 int id elastic 0x7f0800b0
 int id end 0x7f0800b1
@@ -2040,6 +2042,7 @@ int id floating 0x7f0800c1
 int id forever 0x7f0800c2
 int id fragment_container 0x7f0800c3
 int id fragment_container_view_tag 0x7f0800c4
+int id frameLayout 0x7f0801e1
 int id frost 0x7f0800c5
 int id ghost_view 0x7f0800c6
 int id ghost_view_holder 0x7f0800c7
@@ -2182,6 +2185,7 @@ int id progress_horizontal 0x7f08014f
 int id radio 0x7f080150
 int id ratio 0x7f080151
 int id rectangles 0x7f080152
+int id recyclerView 0x7f0801e3
 int id reverseSawtooth 0x7f080153
 int id right 0x7f080154
 int id rightToLeft 0x7f080155
@@ -2229,6 +2233,10 @@ int id snapMargins 0x7f08017e
 int id south 0x7f08017f
 int id spacer 0x7f080180
 int id special_effects_controller_view_tag 0x7f080181
+int id spinnerDaño 0x7f0801e6
+int id spinnerPanteon 0x7f0801e4
+int id spinnerRango 0x7f0801e7
+int id spinnerRol 0x7f0801e8
 int id spline 0x7f080182
 int id split_action_bar 0x7f080183
 int id spread 0x7f080184
@@ -2276,6 +2284,7 @@ int id textSpacerNoButtons 0x7f0801ad
 int id textSpacerNoTitle 0x7f0801ae
 int id textStart 0x7f0801af
 int id textTop 0x7f0801b0
+int id textView 0x7f0801e2
 int id text_input_end_icon 0x7f0801b1
 int id text_input_error_icon 0x7f0801b2
 int id text_input_start_icon 0x7f0801b3
@@ -2411,6 +2420,7 @@ int layout design_text_input_start_icon 0x7f0b002d
 int layout fragment_form 0x7f0b002e
 int layout fragment_home 0x7f0b002f
 int layout fragment_list 0x7f0b0030
+int layout item_list 0x7f0b007e
 int layout material_chip_input_combo 0x7f0b0031
 int layout material_clock_display 0x7f0b0032
 int layout material_clock_display_divider 0x7f0b0033

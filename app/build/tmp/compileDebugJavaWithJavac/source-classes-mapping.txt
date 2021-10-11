@@ -1,13 +1,18 @@
 com/example/m8app/BuildConfig.java
  com.example.m8app.BuildConfig
+com/example/m8app/Dioses.java
+ com.example.m8app.Dioses
 com/example/m8app/MainActivity.java
  com.example.m8app.MainActivity
  com.example.m8app.MainActivity$1
-com/example/m8app/menu.java
- com.example.m8app.menu
-com/example/m8app/FragmentHome.java
- com.example.m8app.FragmentHome
 com/example/m8app/FormFragment.java
  com.example.m8app.FormFragment
+com/example/m8app/RecyclerViewAdapter.java
+ com.example.m8app.RecyclerViewAdapter
+ com.example.m8app.RecyclerViewAdapter$ViewHolder
+com/example/m8app/FragmentHome.java
+ com.example.m8app.FragmentHome
+com/example/m8app/menu.java
+ com.example.m8app.menu
 com/example/m8app/ListFragment.java
  com.example.m8app.ListFragment
