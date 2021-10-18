@@ -1,4 +1,4 @@
-#Mon Oct 11 19:51:53 CEST 2021
+#Mon Oct 18 19:00:38 CEST 2021
 base.2=/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
 path.2=6/classes.dex
 base.1=/home/cf17eric.salvatierra/AndroidStudioProjects/M8APP/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex

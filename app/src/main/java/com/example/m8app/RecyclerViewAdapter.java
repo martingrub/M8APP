@@ -12,8 +12,8 @@ import java.util.ArrayList;
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
     private ArrayList<String> array_dioses;
 
-    public RecyclerViewAdapter(ArrayList<String> arrN){
-        array_dioses = arrN;
+    public RecyclerViewAdapter(ArrayList<String> arrD){
+        array_dioses = arrD;
     }
 
     @NonNull

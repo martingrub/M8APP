@@ -27,14 +27,19 @@ public class ListFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         ArrayList<String> array_dioses = new ArrayList<String>();
-        array_dioses.add("Luke Skywalker");
-
         View listdioses = inflater.inflate(R.layout.fragment_list,container,false);
+        array_dioses.add("Luke Skywalker");
+        array_dioses.add("Luke Skywalker");
+        array_dioses.add("Luke Skywalker");
+        array_dioses.add("Luke Skywalker");
+        array_dioses.add("Luke Skywalker");
+        array_dioses.add("Luke Skywalker");
+        array_dioses.add("Luke Skywalker");
         RecyclerView recyclerView = listdioses.findViewById(R.id.recyclerView);
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(array_dioses);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(listdioses.getContext()));
-        recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
+        recyclerView.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL));
         return listdioses;
 
     }
