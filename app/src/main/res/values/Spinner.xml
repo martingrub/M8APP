@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SpinnerPantheon">
+        <item>Arthurian</item>
+        <item>Babilonia</item>
+        <item>Celtic</item>
+        <item>Chino</item>
+        <item>Egipcio</item>
+        <item>Grandes Antiguos</item>
+        <item>Griegos</item>
+        <item>Hindú</item>
+        <item>Japonés</item>
+        <item>Maya</item>
+        <item>Nórdico</item>
+        <item>Polynesian</item>
+        <item>Romano</item>
+        <item>Slavic</item>
+        <item>Voodoo</item>
+        <item>Yoruba</item>
+    </string-array>
+    <string-array name="SpinnerRol">
+        <item>Warrior</item>
+        <item>Assesino</item>
+        <item>Mago</item>
+        <item>Guardian</item>
+        <item>Cazador</item>
+    </string-array>
+    <string-array name="SpinnerRango">
+        <item>Cuerpo a cuerpo</item>
+        <item>A distancia</item>
+    </string-array>
+    <string-array name="SpinnerDaño">
+        <item>Físico</item>
+        <item>Magico</item>
+    </string-array>
+
+
+</resources>

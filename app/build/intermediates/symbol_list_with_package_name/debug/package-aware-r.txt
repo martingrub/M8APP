@@ -57,6 +57,10 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array SpinnerDaño
+array SpinnerPantheon
+array SpinnerRango
+array SpinnerRol
 attr ConstraintRotate
 attr SharedValue
 attr SharedValueId
@@ -1851,6 +1855,7 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id NameDios
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1860,6 +1865,7 @@ id TOP_END
 id TOP_START
 id TextLogin
 id TextName
+id TextNom
 id TextPassword
 id accelerate
 id accessibility_action_clickable_span
@@ -1946,8 +1952,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAñadir
 id btnLogin
-id button
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -2020,7 +2026,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextTextPersonName
 id edit_query
 id elastic
 id end
@@ -2281,12 +2286,15 @@ id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
 id text2
+id textDaño
 id textEnd
+id textPantheon
+id textRango
+id textRol
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

@@ -4,12 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.content.pm.ActivityInfo;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 
+import com.example.m8app.DB.DiosesDBHelper;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class menu extends AppCompatActivity {
-
+    private DiosesDBHelper dbHelper;
+    private SQLiteDatabase db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,7 +22,8 @@ public class menu extends AppCompatActivity {
         BottomNavigationView bottomNav = findViewById(R.id.main_menu);
         //Hide the action bar
         getSupportActionBar().hide();
-
+        dbHelper = new DiosesDBHelper(this);
+        db = dbHelper.getWritableDatabase();
 
         bottomNav.setOnItemSelectedListener(item -> {
             Fragment selectedFragment = null;
@@ -29,15 +33,22 @@ public class menu extends AppCompatActivity {
                     break;
 
                 case R.id.nav_list:
-                    selectedFragment = new ListFragment();
+                    selectedFragment = new ListFragment(dbHelper,db);
                     break;
 
                 case R.id.nav_add:
-                    selectedFragment = new FormFragment();
+                    selectedFragment = new FormFragment(dbHelper,db);
                     break;
             }
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
             return true;
         });
+
+    }
+    @Override
+    public void onDestroy() {
+        dbHelper.close();
+        db.close();
+        super.onDestroy();
     }
 }
