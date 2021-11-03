@@ -52,18 +52,11 @@ public class DiosesDBHelper extends SQLiteOpenHelper {
 
             //Insert the gods getting all values
             values.put(DiosesEntry.COLUMN_NAME_TITLE, c.getNombre());
-            db.insert(TABLE_NAME, null, values);
-
             values.put(DiosesEntry.COLUMN_PANTHEON_TITLE, c.getPanteon());
-            db.insert(TABLE_NAME, null, values);
-
             values.put(DiosesEntry.COLUMN_ROL_TITLE, c.getRol());
-            db.insert(TABLE_NAME, null, values);
-
             values.put(DiosesEntry.COLUMN_RANGO_TITLE, c.getRango());
-            db.insert(TABLE_NAME, null, values);
-
             values.put(DiosesEntry.COLUMN_DAÑO_TITLE, c.getDaño());
+
             db.insert(TABLE_NAME, null, values);
         }else{
             Log.i("sql","Database is closed");

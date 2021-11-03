@@ -7,19 +7,21 @@
     tools:context="com.example.m8app.MainActivity$">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
         <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:layout_weight="4"
-            android:src="@drawable/ic_login"
             android:scaleType="centerCrop"
-            android:layout_width="match_parent"
-            android:layout_height="0dp" />
+            android:src="@drawable/ic_login" />
+
         <View
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="0dp"/>
+            android:layout_height="0dp"
+            android:layout_weight="1" />
     </LinearLayout>
 
 

@@ -36,31 +36,31 @@ public class FormFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
+        //Declarations
         View formdioses = inflater.inflate(R.layout.fragment_form,container,false);
         final Button buttonAñadir = formdioses.findViewById(R.id.btnAñadir);
         final Button buttonEliminar = formdioses.findViewById(R.id.btnEliminar);
         final EditText Nombre = formdioses.findViewById(R.id.NameDios);
         //
-
+        //Create Spinner
         Spinner spinnerPanteon = (Spinner) formdioses.findViewById(R.id.spinnerPanteon);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(),
                 R.array.SpinnerPantheon, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerPanteon.setAdapter(adapter);
-        //
+        //Create Spinner 2
         Spinner spinnerRol = (Spinner) formdioses.findViewById(R.id.spinnerRol);
         ArrayAdapter<CharSequence> adapter1 = ArrayAdapter.createFromResource(getContext(),
                 R.array.SpinnerRol, android.R.layout.simple_spinner_item);
         adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerRol.setAdapter(adapter1);
-        //
+        //Create Spinner 3
         Spinner spinnerRango = (Spinner) formdioses.findViewById(R.id.spinnerRango);
         ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(getContext(),
                 R.array.SpinnerRango, android.R.layout.simple_spinner_item);
         adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerRango.setAdapter(adapter2);
-        //
+        //Create Spinner 4
         Spinner spinnerDaño = (Spinner) formdioses.findViewById(R.id.spinnerDaño);
         ArrayAdapter<CharSequence> adapter3 = ArrayAdapter.createFromResource(getContext(),
                 R.array.SpinnerDaño, android.R.layout.simple_spinner_item);
@@ -68,10 +68,10 @@ public class FormFragment extends Fragment {
         spinnerDaño.setAdapter(adapter3);
 
 
-
+        //When you click the button it calls the functions OnClickListener
         buttonAñadir.setOnClickListener(new View.OnClickListener() {
-
             public void onClick(View v) {
+                //Create dialog
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
                 builder.setTitle("Crear dios");
                 builder.setMessage("¿Seguro que quieres crear este dioses?");
@@ -81,8 +81,8 @@ public class FormFragment extends Fragment {
                                 Dioses dios = new Dioses(Nombre.getText().toString(),
                                         spinnerPanteon.getSelectedItem().toString(),
                                         spinnerRol.getSelectedItem().toString(),
-                                        spinnerDaño.getSelectedItem().toString(),
-                                        spinnerRango.getSelectedItem().toString());
+                                        spinnerRango.getSelectedItem().toString(),
+                                        spinnerDaño.getSelectedItem().toString());
                                 dbHelper.insertDioses(db,dios);
                                 Toast.makeText(getActivity(),"Agregado correctamente", Toast.LENGTH_SHORT).show();
                             }
@@ -98,6 +98,7 @@ public class FormFragment extends Fragment {
 
             }
         });
+        //When you click the button it calls the functions OnClickListener
         buttonEliminar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());

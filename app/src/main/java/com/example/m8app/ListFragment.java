@@ -34,10 +34,11 @@ public class ListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
+        //Create a view
         View listdioses = inflater.inflate(R.layout.fragment_list,container,false);
+        //Create a Arraylist with the dbhelper data
         ArrayList<Dioses> array_dioses = dbHelper.getAllData(db);
-
+        //Create a RecyclerView where the information of the arraylist will be displayed
         RecyclerView recyclerView = listdioses.findViewById(R.id.recyclerView);
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(array_dioses);
         recyclerView.setAdapter(adapter);
