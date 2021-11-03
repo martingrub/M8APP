@@ -2,6 +2,7 @@ package com.example.m8app.DB;
 import static com.example.m8app.DB.DiosesContract.DiosesEntry.ID;
 import static com.example.m8app.DB.DiosesContract.DiosesEntry.TABLE_NAME;
 
+
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
@@ -28,21 +29,28 @@ public class DiosesDBHelper extends SQLiteOpenHelper {
         super(context,DATABASE_NAME,null,DATABASE_VERSION);
     }
     @Override
-    public void onCreate(SQLiteDatabase db) {
-        db.execSQL(SQL_CREATE_ENTRIES);
+    public void onCreate(SQLiteDatabase sqLiteDatabase) {
+        sqLiteDatabase.execSQL(SQL_CREATE_ENTRIES);
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
+    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
+
     }
+
+    public void delete() {
+        SQLiteDatabase db=this.getWritableDatabase();
+        db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME);
+        onCreate(db);
+    }
+
     public void insertDioses(SQLiteDatabase db, Dioses c){
         //Check the bd is open
         if (db.isOpen()){
-            //Creation of the register for insert object with the content values
+            // Create object to insert values with content
             ContentValues values = new ContentValues();
 
-            //Insert the contacts getting all values
+            //Insert the gods getting all values
             values.put(DiosesEntry.COLUMN_NAME_TITLE, c.getNombre());
             db.insert(TABLE_NAME, null, values);
 

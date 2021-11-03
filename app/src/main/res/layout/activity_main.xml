@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.m8app.MainActivity$MainActivity">
+    tools:context="com.example.m8app.MainActivity$">
 
     <LinearLayout
         android:orientation="vertical"
@@ -72,15 +72,17 @@
             android:textColorHint="#eee"
             android:textSize="17sp" />
 
+
         <Button
             android:id="@+id/btnLogin"
-            android:layout_width="wrap_content"
-            android:layout_height="35dp"
-            android:background="@drawable/rounded_corner_buttom"
-            android:paddingLeft="20dp"
             android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/ic_rounded_corner"
             android:text="sign in"
-            android:textColor="#777" />
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp" />
+
         <TextView
             android:layout_marginTop="20dp"
             android:textColor="#fff"

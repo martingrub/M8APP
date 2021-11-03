@@ -1810,6 +1810,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_rounded_corner
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1843,8 +1844,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable rounded_corner
-drawable rounded_corner_buttom
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1863,6 +1862,11 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id TVDaño
+id TVName
+id TVPantheon
+id TVRango
+id TVRol
 id TextLogin
 id TextName
 id TextNom
@@ -1953,6 +1957,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnAñadir
+id btnEliminar
 id btnLogin
 id buttonPanel
 id cache_measures

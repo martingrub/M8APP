@@ -1,4 +1,5 @@
 package com.example.m8app.DB;
+
 import android.provider.BaseColumns;
 
 public class DiosesContract{

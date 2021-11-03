@@ -4,18 +4,18 @@ public class Dioses {
     private String nombre;
     private String panteon;
     private String rol;
-    private String daño;
     private String rango;
+    private String daño;
 
     public Dioses() {
     }
 
-    public Dioses(String nombre, String panteon, String rol, String daño, String rango) {
+    public Dioses(String nombre, String panteon, String rol, String rango,String daño) {
         this.nombre = nombre;
         this.panteon = panteon;
         this.rol = rol;
-        this.daño = daño;
         this.rango = rango;
+        this.daño = daño;
     }
 
     public String getNombre() {
@@ -42,20 +42,20 @@ public class Dioses {
         this.rol = rol;
     }
 
-    public String getDaño() {
-        return daño;
-    }
-
-    public void setDaño(String daño) {
-        this.daño = daño;
-    }
-
     public String getRango() {
         return rango;
     }
 
     public void setRango(String rango) {
         this.rango = rango;
+    }
+
+    public String getDaño() {
+        return daño;
+    }
+
+    public void setDaño(String daño) {
+        this.daño = daño;
     }
 
 

@@ -46,6 +46,7 @@ public class menu extends AppCompatActivity {
 
     }
     @Override
+    // Close the database when onDestroy
     public void onDestroy() {
         dbHelper.close();
         db.close();
