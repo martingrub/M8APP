@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <resources>
     <string name="app_name">M8APP</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="TextLogin">Hello blank fragment</string>
+    <string name="TextLogin">Login</string>
     <string name="TextName">Hello blank fragment</string>
     <string name="TextPassword">Hello blank fragment</string>
 </resources>

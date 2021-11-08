@@ -3,6 +3,8 @@ package com.example.m8app;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.pm.ActivityInfo;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -13,7 +15,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class menu extends AppCompatActivity {
     private DiosesDBHelper dbHelper;
     private SQLiteDatabase db;
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //Lock so that the screen does not rotate
@@ -25,6 +26,8 @@ public class menu extends AppCompatActivity {
         dbHelper = new DiosesDBHelper(this);
         db = dbHelper.getWritableDatabase();
 
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FragmentHome()).commit();
         bottomNav.setOnItemSelectedListener(item -> {
             Fragment selectedFragment = null;
             switch (item.getItemId()){

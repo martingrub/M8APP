@@ -20,12 +20,12 @@
         "source": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/src/main/res/drawable/ic_add.xml"
     },
     {
-        "merged": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/build/intermediates/merged_res/debug/drawable_ic_login.xml.flat",
-        "source": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/src/main/res/drawable/ic_login.xml"
-    },
-    {
         "merged": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/build/intermediates/merged_res/debug/drawable_ic_login.xml.flat",
+        "source": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/src/main/res/drawable/ic_login.xml"
     },
     {
         "merged": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/build/intermediates/merged_res/debug/drawable_ic_lock_focused.xml.flat",
@@ -96,12 +96,12 @@
         "source": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/build/intermediates/merged_res/debug/drawable_ic_home.xml.flat",
-        "source": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/src/main/res/drawable/ic_home.xml"
-    },
-    {
         "merged": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/build/intermediates/merged_res/debug/drawable_smite.jpg.flat",
         "source": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/src/main/res/drawable/smite.jpg"
+    },
+    {
+        "merged": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/build/intermediates/merged_res/debug/drawable_ic_home.xml.flat",
+        "source": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/src/main/res/drawable/ic_home.xml"
     },
     {
         "merged": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",

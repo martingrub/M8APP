@@ -1959,6 +1959,7 @@ id bounceEnd
 id bounceStart
 id btnAñadir
 id btnEliminar
+id btnIngles
 id btnLogin
 id buttonPanel
 id cache_measures
@@ -1970,6 +1971,7 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id checkBox
 id checkbox
 id checked
 id chip
@@ -2056,6 +2058,7 @@ id fragment_container
 id fragment_container_view_tag
 id fragment_list
 id frameLayout
+id frameLayout2
 id frost
 id ghost_view
 id ghost_view_holder
@@ -2519,6 +2522,9 @@ menu bottom_navigation
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string TextLogin
+string TextName
+string TextPassword
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2559,7 +2565,6 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
-string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
