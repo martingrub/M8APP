@@ -6,16 +6,22 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import com.example.m8app.spref_manager;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
         int comprobante = 0;
+    private spref_manager s_preferences;
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             //Lock so that the screen does not rotate
@@ -24,8 +30,11 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.activity_main);
             //Hide the action bar
             getSupportActionBar().hide();
+            s_preferences = new spref_manager(getApplicationContext());
 
-
+            if(!new spref_manager(this).noLang()){
+                setAppLocale(s_preferences.getSave());
+            }
 
             final EditText username = findViewById(R.id.TextName);
             final EditText password = findViewById(R.id.TextPassword);
@@ -76,6 +85,15 @@ public class MainActivity extends AppCompatActivity {
         Intent intentmenu = new Intent(this,menu.class);
         startActivity(intentmenu);
     }
+    private void setAppLocale(String localeCode){
+        Resources resources = getResources();
+        DisplayMetrics displayMetrics = resources.getDisplayMetrics();
+        Configuration configuration = resources.getConfiguration();
+        configuration.setLocale(new Locale(localeCode.toLowerCase()));
+        resources.updateConfiguration(configuration, displayMetrics);
+        configuration.locale = new Locale(localeCode.toLowerCase());
+        resources.updateConfiguration(configuration, displayMetrics);
+    }
     private void guardarPreferancias() {
         SharedPreferences preferences = getSharedPreferences
                 ("credenciales", Context.MODE_PRIVATE);
@@ -85,8 +103,5 @@ public class MainActivity extends AppCompatActivity {
         editor.putInt("comprobante", 1);
         editor.commit();
     }
-    public void refresh(){
-        Intent intent = new Intent(this, Menu.class);
-        startActivity(intent);
-    }
+
 }

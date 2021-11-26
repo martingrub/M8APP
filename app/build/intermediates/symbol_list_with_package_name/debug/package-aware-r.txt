@@ -1959,8 +1959,11 @@ id bounceEnd
 id bounceStart
 id btnAñadir
 id btnEliminar
-id btnIngles
 id btnLogin
+id buttonBorrar
+id buttonCatala
+id buttonEspañol
+id buttonIngles
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -2556,6 +2559,10 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string buttonBorrar
+string buttonCatala
+string buttonEspañol
+string buttonIngles
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern

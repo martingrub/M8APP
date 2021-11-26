@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/cf17eric.salvatierra/Documents/SalvatierraEric_M8APP/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "C:\\Users\\eric2\\StudioProjects\\SalvatierraEric_M8APP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/home/cf17eric.salvatierra/.gradle/caches/transforms-3/c1cd57ded4d5589f1d6ef72c89e9c8dc/transformed/material-1.4.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "source": "C:\\Users\\eric2\\.gradle\\caches\\transforms-3\\c1cd57ded4d5589f1d6ef72c89e9c8dc\\transformed\\material-1.4.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

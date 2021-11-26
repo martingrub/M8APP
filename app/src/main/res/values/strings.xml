@@ -5,4 +5,8 @@
     <string name="TextLogin">Hello blank fragment</string>
     <string name="TextName">Hello blank fragment</string>
     <string name="TextPassword">Hello blank fragment</string>
+    <string name="buttonEspañol">Spanish</string>
+    <string name="buttonCatala">Catalan</string>
+    <string name="buttonIngles">English</string>
+    <string name="buttonBorrar">Log out</string>
 </resources>
