@@ -2,11 +2,92 @@
 <resources>
     <string name="app_name">M8APP</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="TextLogin">Login</string>
-    <string name="TextName">Hello blank fragment</string>
-    <string name="TextPassword">Hello blank fragment</string>
+    <string name="TextLogin">Benvingut</string>
+    <string name="TextName">Correu electrònic</string>
+    <string name="TextPassword">Contrasenya</string>
+    <string name="btnLogin">Iniciar Sessió</string>
+    <string name="checkBox">Recorda\'m</string>
+
     <string name="buttonEspañol">Espanyol</string>
     <string name="buttonCatala">Catala</string>
     <string name="buttonIngles">Angles</string>
     <string name="buttonBorrar">Tancar sessió</string>
+
+    <string name="TVName">Nom de Déu</string>
+    <string name="TVPantheon">Pantheon</string>
+    <string name="TVRol">Rol</string>
+    <string name="TVRango">Rang</string>
+    <string name="TVDaño">Danys</string>
+    <string name="btnAñadir">Afegeix</string>
+    <string name="btnEliminar">Eliminar</string>
+
+    <string name="Crear_Dios">Crear déu</string>
+    <string name="MensajeConfirmacionCrear">Segur que vols crear aquest déus?</string>
+    <string name="SiCrear">Si</string>
+    <string name="NoCrear">No</string>
+    <string name="CorrectoMensajeCrear">Agregat correctament</string>
+
+    <string name="Eliminar_Dios">Esborrar tots els déus</string>
+    <string name="MensajeConfirmacionEliminar">Segur que vols esborrar tots els déus?</string>
+    <string name="SiEliminar">Si</string>
+    <string name="NoEliminar">No</string>
+    <string name="CorrectoMensajeElinimar">Eliminat correctament</string>
+
+    <!--SpinnerPantheon-->
+    <string name="Chinese">Chinese</string>
+    <string name="Egyptian">Egyptian</string>
+    <string name="Big_Old">Big Old</string>
+    <string name="Greek">Greek</string>
+    <string name="Hindu">Hindu</string>
+    <string name="Japanese">Japanese</string>
+    <string name="Nordic">Nordic</string>
+    <string name="Roman">Roman</string>
+
+    <!--SpinnerRol-->
+    <string name="Warrior">Guerrer</string>
+    <string name="Assassin">Assassí</string>
+    <string name="Mage">Mag</string>
+    <string name="Guardian">Guardià</string>
+    <string name="Hunter">Caçador</string>
+    <!--SpinnerRango-->
+    <string name="Melee">Cos a cos</string>
+    <string name="Ranged">A distància</string>
+    <!--SpinnerDaño-->
+    <string name="Physical">Física</string>
+    <string name="Magical">Màgic</string>
+
+    <!--Spinner-->
+    <string-array name="SpinnerPantheon">
+        <item>Arthurian</item>
+        <item>Babilonia</item>
+        <item>Celtic</item>
+        <item>@string/Chinese</item>
+        <item>@string/Egyptian</item>
+        <item>@string/Big_Old</item>
+        <item>@string/Greek</item>
+        <item>@string/Hindu</item>
+        <item>@string/Japanese</item>
+        <item>Maya</item>
+        <item>@string/Nordic</item>
+        <item>Polynesian</item>
+        <item>@string/Roman</item>
+        <item>Slavic</item>
+        <item>Voodoo</item>
+        <item>Yoruba</item>
+    </string-array>
+    <string-array name="SpinnerRol">
+        <item>@string/Warrior</item>
+        <item>@string/Assassin</item>
+        <item>@string/Mage</item>
+        <item>@string/Guardian</item>
+        <item>@string/Hunter</item>
+    </string-array>
+    <string-array name="SpinnerRango">
+        <item>@string/Melee</item>
+        <item>@string/Ranged</item>
+    </string-array>
+    <string-array name="SpinnerDaño">
+        <item>@string/Physical</item>
+        <item>@string/Magical</item>
+    </string-array>
 </resources>

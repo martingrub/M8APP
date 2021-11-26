@@ -34,13 +34,13 @@
 
         <TextView
             android:id="@+id/TextLogin"
-            android:layout_margin="?actionBarSize"
-            android:textStyle="bold"
-            android:textSize="40sp"
-            android:textColor="#fff"
-            android:text="Sign in"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_margin="?actionBarSize"
+            android:text="@string/TextLogin"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/TextName"
@@ -50,10 +50,9 @@
             android:background="@drawable/custom_input"
             android:drawableStart="@drawable/custom_email_icon"
             android:drawablePadding="12dp"
-            android:hint="Email"
+            android:hint="@string/TextName"
             android:paddingStart="10dp"
             android:paddingLeft="10dp"
-            android:text="admin"
             android:textColor="#fff"
             android:textColorHint="#eee"
             android:textSize="17sp" />
@@ -66,11 +65,10 @@
             android:background="@drawable/custom_input"
             android:drawableStart="@drawable/custom_lock_icon"
             android:drawablePadding="12dp"
-            android:hint="Password"
+            android:hint="@string/TextPassword"
             android:inputType="textPassword"
             android:paddingStart="10dp"
             android:paddingLeft="10dp"
-            android:text="admin"
             android:textColor="#fff"
             android:textColorHint="#eee"
             android:textSize="17sp" />
@@ -78,30 +76,23 @@
 
         <Button
             android:id="@+id/btnLogin"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
             android:background="@drawable/ic_rounded_corner"
-            android:text="sign in"
-            android:textColor="@color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="35dp" />
-
-        <TextView
-            android:layout_marginTop="20dp"
-            android:textColor="#fff"
-            android:text="Forgot Password?"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/btnLogin"
+            android:textColor="@color/white" />
 
 
         <CheckBox
             android:id="@+id/checkBox"
-            android:textColor="#fff"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:text="@string/checkBox"
 
-            android:text="Save Credentials" />
+            android:textColor="#fff" />
 
     </LinearLayout>
 

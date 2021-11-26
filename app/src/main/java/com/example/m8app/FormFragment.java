@@ -73,9 +73,9 @@ public class FormFragment extends Fragment {
             public void onClick(View v) {
                 //Create dialog
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-                builder.setTitle("Crear dios");
-                builder.setMessage("¿Seguro que quieres crear este dioses?");
-                builder.setPositiveButton("Si",
+                builder.setTitle(getResources().getString(R.string.Crear_Dios));
+                builder.setMessage(getResources().getString(R.string.MensajeConfirmacionCrear));
+                builder.setPositiveButton(getResources().getString(R.string.SiCrear),
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 Dioses dios = new Dioses(Nombre.getText().toString(),
@@ -84,10 +84,10 @@ public class FormFragment extends Fragment {
                                         spinnerRango.getSelectedItem().toString(),
                                         spinnerDaño.getSelectedItem().toString());
                                 dbHelper.insertDioses(db,dios);
-                                Toast.makeText(getActivity(),"Agregado correctamente", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getActivity(),getResources().getString(R.string.CorrectoMensajeCrear), Toast.LENGTH_SHORT).show();
                             }
                         });
-                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                builder.setNegativeButton(getResources().getString(R.string.NoCrear), new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         // User cancelled the dialog
                     }
@@ -102,16 +102,16 @@ public class FormFragment extends Fragment {
         buttonEliminar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-                builder.setTitle("Borrar todos los dioses");
-                builder.setMessage("¿Seguro que quieres borrar todos los dioses?");
-                builder.setPositiveButton("Si",
+                builder.setTitle(getResources().getString(R.string.Eliminar_Dios));
+                builder.setMessage(getResources().getString(R.string.MensajeConfirmacionEliminar));
+                builder.setPositiveButton(getResources().getString(R.string.SiEliminar),
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 dbHelper.delete();
-                                Toast.makeText(getActivity(),"Eliminado correctamente", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getActivity(),getResources().getString(R.string.CorrectoMensajeElinimar), Toast.LENGTH_SHORT).show();
                             }
                         });
-                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                builder.setNegativeButton(getResources().getString(R.string.NoEliminar), new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         // User cancelled the dialog
                     }
